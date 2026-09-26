@@ -16,7 +16,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y g++
 
       - name: Build tests
-        run: g++ Student.cpp tests.cpp -o tests
+        run: g++ Student.cpp test.cpp -o tests
 
       - name: Run tests
         run: ./tests
